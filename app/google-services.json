@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172686222389",
+    "project_id": "track-buggy",
+    "storage_bucket": "track-buggy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172686222389:android:85ec1b51a05d2471a13d7c",
+        "android_client_info": {
+          "package_name": "com.infostride.trackbuggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172686222389-ol8ooge0a6rdi5vum94e65rj46ptu5v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW_xi5drYWu8Ndf45hIMVAbXqEIMewBHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172686222389-ol8ooge0a6rdi5vum94e65rj46ptu5v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

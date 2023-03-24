@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment"
+    android:id="@+id/app_navigation.xml">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.infostride.trackbuggy.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/app_navigation.xml" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment"
+         />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.infostride.trackbuggy.ui.dashboard.DashboardFragment"
+        android:label="fragment_my_home"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.infostride.trackbuggy.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+
+        <action
+            android:id="@+id/action_profileFragment_to_trackDeviceFragment"
+            app:destination="@id/trackFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_splashFragment"
+            app:destination="@id/splashFragment"
+            app:popUpTo="@id/app_navigation.xml"
+            app:popUpToInclusive="false"/>
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.infostride.trackbuggy.ui.profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.infostride.trackbuggy.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/activity_splash">
+        <action
+            app:popUpTo="@id/app_navigation.xml"
+            android:id="@+id/action_splashFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.infostride.trackbuggy.ui.forgot_password.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/trackFragment"
+        android:name="com.infostride.trackbuggy.ui.track_device.TrackFragment"
+        android:label="TrackFragment" />
+
+
+</navigation>

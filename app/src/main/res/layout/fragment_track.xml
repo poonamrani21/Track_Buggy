@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/edit_profile_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/track_device"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_profile_back_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edit_profile_back_btn" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/app_theme_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/device_id"
+        app:layout_constraintBottom_toBottomOf="@id/device_id"
+        app:layout_constraintStart_toEndOf="@id/device_id"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/app_theme_color"
+        app:layout_constraintBottom_toBottomOf="@id/device_id"
+        app:layout_constraintEnd_toStartOf="@id/device_id"
+        app:layout_constraintTop_toTopOf="@id/device_id"
+        app:layout_constraintStart_toStartOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_id"
+        android:backgroundTint="@color/app_theme_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp">
+    <TextView
+        android:id="@+id/tv_track_device"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/app_icon_white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track 45558677"
+        android:background="@color/app_theme_color"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

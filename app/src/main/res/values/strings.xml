@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Track Buggy</string>
+    <string name="delete_location">Track Buggy is detecting your location</string>
+    <string name="track_buggy">Track Buggy...</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_request_id">Enter activation code</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="request">Request</string>
+    <string name="connect">Activate</string>
+    <string name="login">Login</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_activation_code">Please enter activation code</string>
+    <string name="please_enter_valid_code">Please enter a valid code</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="your_device_has_been_activated">Your device has been activated.</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="got_it">GOT IT</string>
+    <string name="total_device">Total Device</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="active_device">Active Device</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="company_name">Company Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="dob">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="are_you_sure_you_want_logout">Are you sure, you want to logout?</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="track_device">Track Device</string>
+    <string name="gps_enable">GPS enable</string>
+    <string name="please_turn_on_gps">Please turn on GPS</string>
+    <string name="google_maps_key">AIzaSyCTWcHCGo0JA8tBR6zBtvXMf93YrYMl_ok</string>
+    <!-- Permissions -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="fcm_failed">Fetching FCM registration token failed</string>
+    <string name="service_already_running">Service is already running</string>
+    <string name="service_start_successfully">Service start successfully</string>
+    <string name="update_profile">Update Profile</string>
+
+</resources>
